@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B2964C18F52106009378C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2964B18F52106009378C4 /* Foundation.framework */; };
+		A3B2965118F52106009378C4 /* KKRSA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3B2965018F52106009378C4 /* KKRSA.h */; };
+		A3B2965318F52106009378C4 /* KKRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2965218F52106009378C4 /* KKRSA.m */; };
+		A3B2965A18F52106009378C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2965918F52106009378C4 /* XCTest.framework */; };
+		A3B2965B18F52106009378C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2964B18F52106009378C4 /* Foundation.framework */; };
+		A3B2965D18F52106009378C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2965C18F52106009378C4 /* UIKit.framework */; };
+		A3B2966018F52106009378C4 /* libKKRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2964818F52106009378C4 /* libKKRSA.a */; };
+		A3B2966618F52106009378C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B2966418F52106009378C4 /* InfoPlist.strings */; };
+		A3B2966818F52106009378C4 /* KKRSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2966718F52106009378C4 /* KKRSATests.m */; };
+		A3B2967318F5213E009378C4 /* NSString+RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2967218F5213E009378C4 /* NSString+RSA.m */; };
+		C76BDBBB8CC940E2A29BC641 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4820BC03F5F14D94A453BC91 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B2965E18F52106009378C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B2964018F52106009378C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B2964718F52106009378C4;
+			remoteInfo = KKRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3B2964618F52106009378C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A3B2965118F52106009378C4 /* KKRSA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4820BC03F5F14D94A453BC91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A3B2964818F52106009378C4 /* libKKRSA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKKRSA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2964B18F52106009378C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3B2964F18F52106009378C4 /* KKRSA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKRSA-Prefix.pch"; sourceTree = "<group>"; };
+		A3B2965018F52106009378C4 /* KKRSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKRSA.h; sourceTree = "<group>"; };
+		A3B2965218F52106009378C4 /* KKRSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKRSA.m; sourceTree = "<group>"; };
+		A3B2965818F52106009378C4 /* KKRSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKRSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2965918F52106009378C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3B2965C18F52106009378C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A3B2966318F52106009378C4 /* KKRSATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKRSATests-Info.plist"; sourceTree = "<group>"; };
+		A3B2966518F52106009378C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B2966718F52106009378C4 /* KKRSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKRSATests.m; sourceTree = "<group>"; };
+		A3B2967118F5213E009378C4 /* NSString+RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSA.h"; sourceTree = "<group>"; };
+		A3B2967218F5213E009378C4 /* NSString+RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSA.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B2964518F52106009378C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2964C18F52106009378C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2965518F52106009378C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2966018F52106009378C4 /* libKKRSA.a in Frameworks */,
+				A3B2965A18F52106009378C4 /* XCTest.framework in Frameworks */,
+				A3B2965D18F52106009378C4 /* UIKit.framework in Frameworks */,
+				A3B2965B18F52106009378C4 /* Foundation.framework in Frameworks */,
+				C76BDBBB8CC940E2A29BC641 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B2963F18F52106009378C4 = {
+			isa = PBXGroup;
+			children = (
+				A3B2964D18F52106009378C4 /* KKRSA */,
+				A3B2966118F52106009378C4 /* KKRSATests */,
+				A3B2964A18F52106009378C4 /* Frameworks */,
+				A3B2964918F52106009378C4 /* Products */,
+				86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B2964918F52106009378C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2964818F52106009378C4 /* libKKRSA.a */,
+				A3B2965818F52106009378C4 /* KKRSATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B2964A18F52106009378C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2964B18F52106009378C4 /* Foundation.framework */,
+				A3B2965918F52106009378C4 /* XCTest.framework */,
+				A3B2965C18F52106009378C4 /* UIKit.framework */,
+				4820BC03F5F14D94A453BC91 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B2964D18F52106009378C4 /* KKRSA */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2967118F5213E009378C4 /* NSString+RSA.h */,
+				A3B2967218F5213E009378C4 /* NSString+RSA.m */,
+				A3B2965018F52106009378C4 /* KKRSA.h */,
+				A3B2965218F52106009378C4 /* KKRSA.m */,
+				A3B2964E18F52106009378C4 /* Supporting Files */,
+			);
+			path = KKRSA;
+			sourceTree = "<group>";
+		};
+		A3B2964E18F52106009378C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2964F18F52106009378C4 /* KKRSA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B2966118F52106009378C4 /* KKRSATests */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2966718F52106009378C4 /* KKRSATests.m */,
+				A3B2966218F52106009378C4 /* Supporting Files */,
+			);
+			path = KKRSATests;
+			sourceTree = "<group>";
+		};
+		A3B2966218F52106009378C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2966318F52106009378C4 /* KKRSATests-Info.plist */,
+				A3B2966418F52106009378C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B2964718F52106009378C4 /* KKRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2966B18F52106009378C4 /* Build configuration list for PBXNativeTarget "KKRSA" */;
+			buildPhases = (
+				1C95E09353464B2198C602F8 /* Check Pods Manifest.lock */,
+				A3B2964418F52106009378C4 /* Sources */,
+				A3B2964518F52106009378C4 /* Frameworks */,
+				A3B2964618F52106009378C4 /* CopyFiles */,
+				29ECFE1F0FD34EF5923F47DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKRSA;
+			productName = KKRSA;
+			productReference = A3B2964818F52106009378C4 /* libKKRSA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3B2965718F52106009378C4 /* KKRSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2966E18F52106009378C4 /* Build configuration list for PBXNativeTarget "KKRSATests" */;
+			buildPhases = (
+				5DB0D3F711794D3DB98715E9 /* Check Pods Manifest.lock */,
+				A3B2965418F52106009378C4 /* Sources */,
+				A3B2965518F52106009378C4 /* Frameworks */,
+				A3B2965618F52106009378C4 /* Resources */,
+				A69EABF816AB4A749B651CAA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B2965F18F52106009378C4 /* PBXTargetDependency */,
+			);
+			name = KKRSATests;
+			productName = KKRSATests;
+			productReference = A3B2965818F52106009378C4 /* KKRSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B2964018F52106009378C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = geeklu;
+			};
+			buildConfigurationList = A3B2964318F52106009378C4 /* Build configuration list for PBXProject "KKRSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3B2963F18F52106009378C4;
+			productRefGroup = A3B2964918F52106009378C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B2964718F52106009378C4 /* KKRSA */,
+				A3B2965718F52106009378C4 /* KKRSATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B2965618F52106009378C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2966618F52106009378C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C95E09353464B2198C602F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29ECFE1F0FD34EF5923F47DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB0D3F711794D3DB98715E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A69EABF816AB4A749B651CAA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B2964418F52106009378C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2967318F5213E009378C4 /* NSString+RSA.m in Sources */,
+				A3B2965318F52106009378C4 /* KKRSA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2965418F52106009378C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2966818F52106009378C4 /* KKRSATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B2965F18F52106009378C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B2964718F52106009378C4 /* KKRSA */;
+			targetProxy = A3B2965E18F52106009378C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3B2966418F52106009378C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2966518F52106009378C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B2966918F52106009378C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3B2966A18F52106009378C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B2966C18F52106009378C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/KKRSA.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKRSA/KKRSA-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3B2966D18F52106009378C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/KKRSA.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKRSA/KKRSA-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3B2966F18F52106009378C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKRSA/KKRSA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KKRSATests/KKRSATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A3B2967018F52106009378C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B8384ECC4346B07C0A5D /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKRSA/KKRSA-Prefix.pch";
+				INFOPLIST_FILE = "KKRSATests/KKRSATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B2964318F52106009378C4 /* Build configuration list for PBXProject "KKRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2966918F52106009378C4 /* Debug */,
+				A3B2966A18F52106009378C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2966B18F52106009378C4 /* Build configuration list for PBXNativeTarget "KKRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2966C18F52106009378C4 /* Debug */,
+				A3B2966D18F52106009378C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2966E18F52106009378C4 /* Build configuration list for PBXNativeTarget "KKRSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2966F18F52106009378C4 /* Debug */,
+				A3B2967018F52106009378C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B2964018F52106009378C4 /* Project object */;
+}
